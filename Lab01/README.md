@@ -68,3 +68,8 @@ Graphics / Images – Pictures, diagrams, or charts (bitmap or vector).</li>
   </li>
 </ol>
 
+### Conclusion
+<p>
+  By learning GitHub and its practical uses, we gain the skills needed to manage code efficiently and work better in teams. At the same time, understanding the core principles of Multimedia Systems helps us build a strong foundation for creating and handling different types of media. Together, these topics prepare us with essential technical knowledge that is useful for modern software development and multimedia applications.
+</p>
+
