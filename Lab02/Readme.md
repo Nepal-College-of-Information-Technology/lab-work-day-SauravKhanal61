@@ -1,4 +1,4 @@
-## Lab 2
+# Lab 02
 ## Title: Basic sound processing and manipulation using Python
 ## Objectives: 
 1. Load and play a sample sound clip(drum.wav)
