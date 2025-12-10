@@ -1,5 +1,5 @@
 # This is the lab report of Lab1
-## Lab 1
+## Lab 01
 ## Title : Introduction to MMS Lab
 
 ### Objectives: 
