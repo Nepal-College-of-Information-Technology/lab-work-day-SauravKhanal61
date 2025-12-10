@@ -1,19 +1,21 @@
-# This is the lab report of Lab1
-## Lab 01
+# Lab 01
 ## Title : Introduction to MMS Lab
+---
 
-### Objectives: 
+## Objectives: 
 <ul>
   <li>To acquire comprehensive knowledge of GitHub and its functional applications.</li>
   <li>To explore and understand the core principles of Multimedia Systems.</li>
 </ul>
 
-### GitHub-Introduction
+---
+
+## GitHub-Introduction
 <p>
     GitHub is an online platform where we can store our code, track changes, and work       together with each other using Git.
 </p>
 
-### Uses of GitHub 
+## Uses of GitHub 
 <ol>
   <li>Store and Manage Code – You can keep your projects safely online and track all updates using Git.</li>
   <li>Collaboration – Many developers can work on the same project without messing up each other’s work.</li>
@@ -23,7 +25,9 @@
 <p>Some important GitHub terms include repository, commit, branch, merge, pull request, fork, clone, push, pull, and issues.
 These help you manage versions of your project, work with teammates, and handle project tasks easily.</p>
 
-### Multimedia Fundamentals
+---
+
+## Multimedia Fundamentals
 <p>
   Multimedia is the integration of multiple forms of media such as text, graphics, audio, video, and animation to communicate information or provide interactive experiences.
 </p>
@@ -68,7 +72,10 @@ Graphics / Images – Pictures, diagrams, or charts (bitmap or vector).</li>
   </li>
 </ol>
 
-### Conclusion
+---
+
+
+## Conclusion
 <p>
   By learning GitHub and its practical uses, we gain the skills needed to manage code efficiently and work better in teams. At the same time, understanding the core principles of Multimedia Systems helps us build a strong foundation for creating and handling different types of media. Together, these topics prepare us with essential technical knowledge that is useful for modern software development and multimedia applications.
 </p>
