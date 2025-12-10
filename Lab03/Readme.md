@@ -1,10 +1,10 @@
-# *Lab : 3*
+## Lab : 03
 
-# *MIDI Note Processing and Algorithmic Music Generation*
+## MIDI Note Processing and Algorithmic Music Generation
 
 ---
 
-## *Objectives*
+## Objectives
 
 - Print MIDI channels, notes, and their corresponding frequencies.  
 - Generate simple beat, harmony, and melody patterns using MIDI notes.  
@@ -13,9 +13,9 @@
 
 ---
 
-## *Background Theory*
+## Background Theory
 
-### *1. MIDI Standard*
+### 1. MIDI Standard
 
 - *MIDI (Musical Instrument Digital Interface)* is a communication protocol used to send digital music performance data.  
 - It stores musical instructions such as:
@@ -27,37 +27,37 @@
 - MIDI Note Numbers map to musical notes.  
   - Example: 60 = Middle C, 69 = A4 (440 Hz)
 
-#### *Frequency Formula*
+#### Frequency Formula
 
 To convert a MIDI note number n to its frequency: f = 440 × 2^((n - 69) / 12)
 
 
 ---
 
-### *2. Music Theory (Basic)*
+### 2. Music Theory (Basic)
 
-#### *Beat*
+#### Beat
 - The basic unit of time in a musical composition.
 
-#### *Harmony*
+#### Harmony
 - Two or more notes played together (chords).
 
-#### *Melody*
+#### Melody
 - A sequential pattern of musical notes forming the main tune.
 
 ---
 
-### *3. Python Libraries Used*
+### 3. Python Libraries Used
 
-#### *Mido*
+#### Mido
 - For reading, writing, and analyzing MIDI files.
 
-#### *Pygame*
+#### Pygame
 - For playing MIDI files and basic audio handling.
 
 ---
 
-## *Procedure*
+## Procedure
 
 1. Import required libraries:
 
@@ -110,7 +110,7 @@ To convert a MIDI note number n to its frequency: f = 440 × 2^((n - 69) / 12)
 
 ---
 
-## *Output*
+## Output
 
 - Printed MIDI:
   - Channels  
@@ -128,7 +128,7 @@ To convert a MIDI note number n to its frequency: f = 440 × 2^((n - 69) / 12)
 
 ---
 
-## *Conclusion*
+## Conclusion
 
 This lab explored MIDI processing using Python.  
 We extracted MIDI note information, converted notes into frequencies, and generated musical patterns such as beats, harmony, and melody. We also played and converted these MIDI files into standard audio formats. This experiment strengthened understanding of MIDI protocol, basic music theory, and Python-based algorithmic music generation.
