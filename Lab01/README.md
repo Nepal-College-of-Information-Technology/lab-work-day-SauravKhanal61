@@ -25,12 +25,11 @@ These help you manage versions of your project, work with teammates, and handle 
 ---
 
 ## Multimedia Fundamentals
-<p>
+
   Multimedia is the integration of multiple forms of media such as text, graphics, audio, video, and animation to communicate information or provide interactive experiences.
-</p>
-<p>
+
   A multimedia system is a computer-based system that can store, process, and deliver these media types together.
-</p>
+
 <ol>
   <li>Basic Components of Multimedia
   <ul>
@@ -73,7 +72,5 @@ Graphics / Images – Pictures, diagrams, or charts (bitmap or vector).</li>
 
 
 ## Conclusion
-<p>
   By learning GitHub and its practical uses, we gain the skills needed to manage code efficiently and work better in teams. At the same time, understanding the core principles of Multimedia Systems helps us build a strong foundation for creating and handling different types of media. Together, these topics prepare us with essential technical knowledge that is useful for modern software development and multimedia applications.
-</p>
 
