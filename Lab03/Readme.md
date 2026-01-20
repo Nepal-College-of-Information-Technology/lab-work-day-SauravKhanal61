@@ -15,120 +15,96 @@
 
 ## Background Theory
 
-### 1. MIDI Standard
+### 1. MIDI (Musical Instrument Digital Interface)
 
-- *MIDI (Musical Instrument Digital Interface)* is a communication protocol used to send digital music performance data.  
-- It stores musical instructions such as:
-  - note_on  
-  - note_off  
-  - MIDI channel  
-  - Velocity  
-  - Note number (0–127)
-- MIDI Note Numbers map to musical notes.  
-  - Example: 60 = Middle C, 69 = A4 (440 Hz)
+MIDI (Musical Instrument Digital Interface) is a standardized digital protocol developed to enable communication between electronic musical instruments, computers, and other digital music devices. Unlike audio files, MIDI does not store actual sound waves. Instead, it stores performance instructions that describe how music should be played.
 
-#### Frequency Formula
-
-To convert a MIDI note number n to its frequency: f = 440 × 2^((n - 69) / 12)
-
+A MIDI file contains a sequence of messages that control musical parameters such as pitch, duration, loudness, and instrument selection. Because MIDI files store instructions rather than audio, they are compact in size and can be easily edited or generated programmatically.
 
 ---
 
-### 2. Music Theory (Basic)
+### 2. MIDI Messages
 
-#### Beat
-- The basic unit of time in a musical composition.
+MIDI communication is based on messages, each representing a specific musical event. The most commonly used MIDI messages include:
 
-#### Harmony
-- Two or more notes played together (chords).
+- **Note On**  
+  Indicates that a note has been pressed. It contains the note number, velocity, and channel information.
 
-#### Melody
-- A sequential pattern of musical notes forming the main tune.
+- **Note Off**  
+  Indicates that a note has been released.
 
----
+- **Velocity**  
+  Represents the force with which a note is played. Higher velocity values produce louder sounds.
 
-### 3. Python Libraries Used
-
-#### Mido
-- For reading, writing, and analyzing MIDI files.
-
-#### Pygame
-- For playing MIDI files and basic audio handling.
+- **MIDI Channel**  
+  MIDI supports 16 channels, allowing multiple instruments to be controlled independently within a single MIDI file.
 
 ---
 
-## Procedure
+### 3. MIDI Note Numbers and Pitch Representation
 
-1. Import required libraries:
+MIDI represents musical pitch using note numbers ranging from 0 to 127. Each number corresponds to a specific musical note across multiple octaves. For example:
 
-    python
-    import mido
-    import math
-    import pygame
-    
+- MIDI note 60 → Middle C  
+- MIDI note 69 → A4 (Standard tuning note)
 
-2. Load the MIDI file:
-
-    python
-    mid = mido.MidiFile("input.mid")
-    
-
-3. Iterate and print MIDI messages, channels, and note numbers:
-
-    python
-    for msg in mid:
-        if msg.type == "note_on":
-            print(msg.note, msg.channel)
-    
-
-4. Convert MIDI note numbers to frequency:
-
-    python
-    def midi_to_freq(n):
-        return 440 * (2 ** ((n - 69) / 12))
-    
-
-5. Generate:
-   - Beat pattern  
-   - Harmony (simple triads)  
-   - Melody sequence  
-
-6. Save generated tracks as:
-
-    - beat.mid
-    - harmony.mid
-    - melody.mid
-
-7. Play the MIDI file:
-
-    python
-    pygame.mixer.music.load("melody.mid")
-    pygame.mixer.music.play()
-    
-
-8. Convert MIDI to WAV (if synthesizer or pygame MIDI backend is available).
+This numerical representation allows precise and consistent mapping between musical notes and digital data, making MIDI suitable for algorithmic music generation.
 
 ---
 
-## Output
+### 4. Frequency Conversion of MIDI Notes
 
-- Printed MIDI:
-  - Channels  
-  - Notes  
-  - Frequencies  
+Although MIDI uses discrete note numbers, sound synthesis requires continuous frequencies. The frequency corresponding to a MIDI note number `n` is calculated using the following equation:
 
-- Generated MIDI tracks:
-  - beat.mid
-  - harmony.mid
-  - melody.mid
+\[
+f = 440 \times 2^{\frac{(n - 69)}{12}}
+\]
 
-- Played audio using Pygame.
-
-- Converted .wav files from MIDI tracks (if tools installed).
+Here, 440 Hz represents the frequency of the reference note A4. This logarithmic relationship reflects the equal-tempered tuning system used in Western music, where each octave is divided into 12 equal semitones.
 
 ---
 
-## Conclusion
+### 5. Time, Beat, and Tempo in MIDI
 
-This lab explored MIDI processing using Python.  
-We extracted MIDI note information, converted notes into frequencies, and generated musical patterns such as beats, harmony, and melody. We also played and converted these MIDI files into standard audio formats. This experiment strengthened understanding of MIDI protocol, basic music theory, and Python-based algorithmic music generation.
+Time in MIDI is measured using ticks, which are relative units based on the file’s tempo and time division. The **beat** forms the basic rhythmic unit and determines the pacing of musical events.
+
+Tempo is typically measured in **beats per minute (BPM)** and controls how fast or slow the music is played. By adjusting timing values, rhythmic patterns such as steady beats or complex rhythms can be generated programmatically.
+
+---
+
+### 6. Melody, Harmony, and Rhythm
+
+- **Melody**  
+  A melody is a linear sequence of notes played one after another. In MIDI-based music creation, melodies are generated by arranging note numbers and durations in a structured pattern.
+
+- **Harmony**  
+  Harmony occurs when multiple notes are played simultaneously. In this experiment, harmony is created using simple triads, which consist of three notes played together to form chords.
+
+- **Rhythm (Beat)**  
+  Rhythm defines the timing and spacing of notes. Beat patterns can be created by repeating specific note durations at regular intervals.
+
+---
+
+### 7. Algorithmic Music Generation
+
+Algorithmic music generation involves using mathematical and logical rules to create music automatically. MIDI is well-suited for this approach because musical parameters such as pitch, duration, and velocity can be precisely controlled using code.
+
+By defining patterns and rules in Python, it is possible to generate musical structures such as loops, chord progressions, and melodies without manual composition.
+
+---
+
+### 8. Python Libraries for MIDI Processing
+
+- **Mido**  
+  Mido is a Python library that provides tools for reading, writing, and manipulating MIDI files. It allows access to individual MIDI messages and supports creation of new MIDI tracks.
+
+- **Pygame**  
+  Pygame provides basic audio playback functionality. It can be used to load and play MIDI files, enabling real-time testing of generated musical sequences.
+
+---
+
+### 9. MIDI to Audio Conversion
+
+MIDI files do not contain sound and therefore require a synthesizer to produce audible output. When a MIDI synthesizer or compatible backend is available, MIDI files can be converted into standard audio formats such as WAV. This conversion enables playback on devices that do not support MIDI directly.
+
+---
