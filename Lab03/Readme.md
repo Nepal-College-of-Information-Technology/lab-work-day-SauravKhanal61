@@ -1,6 +1,6 @@
 # Lab 03
 
-## MIDI Note Processing and Algorithmic Music Generation
+## Title: MIDI Note Processing and Algorithmic Music Generation
 
 ---
 
