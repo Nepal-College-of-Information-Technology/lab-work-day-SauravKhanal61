@@ -12,7 +12,7 @@
 - Convert MIDI tracks into standard audio (.wav) files using Python tools.
 
 ---
-
+ 
 ## Background Theory
 
 ### 1. MIDI (Musical Instrument Digital Interface)
