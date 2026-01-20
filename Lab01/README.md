@@ -3,17 +3,15 @@
 ---
 
 ## Objectives: 
-<ul>
-  <li>To acquire comprehensive knowledge of GitHub and its functional applications.</li>
-  <li>To explore and understand the core principles of Multimedia Systems.</li>
-</ul>
+
+  * To acquire comprehensive knowledge of GitHub and its functional applications.
+  * To explore and understand the core principles of Multimedia Systems.
+
 
 ---
 
 ## GitHub-Introduction
-<p>
     GitHub is an online platform where we can store our code, track changes, and work       together with each other using Git.
-</p>
 
 ## Uses of GitHub 
 <ol>
