@@ -30,17 +30,14 @@ These help you manage versions of your project, work with teammates, and handle 
 
   A multimedia system is a computer-based system that can store, process, and deliver these media types together.
 
-<ol>
-  <li>Basic Components of Multimedia
-  <ul>
-    <li>Text – Written information, captions, or titles.
-Graphics / Images – Pictures, diagrams, or charts (bitmap or vector).</li>
-    <li>Audio – Sound, music, speech, or effects.</li>
-    <li>Video – Moving images, often combined with audio.</li>
-    <li>Animation – Sequential images creating motion (2D or 3D).</li>
-    <li>Interactive Media – Media that allows user input and control (games, simulations).</li>
-  </ul>
-  </li>
+## Basic Components of Multimedia
+
+- **Text** – Written information, captions, or titles.
+- **Graphics / Images** – Pictures, diagrams, or charts (bitmap or vector).
+- **Audio** – Sound, music, speech, or effects.
+- **Video** – Moving images, often combined with audio.
+- **Animation** – Sequential images creating motion (2D or 3D).
+- **Interactive Media** – Media that allows user input and control (games, simulations).
   <li>Advantages
     <ul>
       <li>
