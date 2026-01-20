@@ -73,6 +73,6 @@ The classification result was displayed along with the detected face region.
 ---
 
 ## Conclusion
-In this lab, image classification was successfully performed using OpenCV and a pre-trained deep learning model. Face detection was used to extract the region of interest, which was then classified using a CNN. This experiment demonstrates the effectiveness of deep learning-based approaches over traditional machine learning methods and provides a strong foundation for advanced computer vision applications.
+In this lab, image classification was successfully performed using OpenCV and a pre-trained deep learning model. Face detection was used to extract the region of interest, which was then classified using a CNN. This experiment demonstrates the effectiveness of deep learning-based approaches over traditional machine learning methods and provides a strong foundation for advanced computer vision applications. 
 
 ---
