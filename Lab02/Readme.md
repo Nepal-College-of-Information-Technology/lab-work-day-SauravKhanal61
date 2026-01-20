@@ -11,7 +11,7 @@
 
 ---
 
-## Background Theory
+## Background Theory 
 * Sound and audio representation: 
 Sound is a natural physical vibration that travels through air or other mediums, while audio is the electronic or digital representation of that sound. Sound becomes audio when microphones convert vibrations into electrical signals, and speakers turn audio signals back into sound we can hear. Simply put, sound is what we hear, and audio is how technology captures, stores, and reproduces that sound.
 
