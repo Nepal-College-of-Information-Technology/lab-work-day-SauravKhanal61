@@ -38,32 +38,21 @@ These help you manage versions of your project, work with teammates, and handle 
 - **Video** – Moving images, often combined with audio.
 - **Animation** – Sequential images creating motion (2D or 3D).
 - **Interactive Media** – Media that allows user input and control (games, simulations).
-  <li>Advantages
-    <ul>
-      <li>
-        Enhances learning and understanding.
-      </li>
-      <li>
-        Makes content engaging and attractive.
-      </li>
-      <li>
-        Enables simulation and visualization.
-      </li>
-      <li>
-        Supports interactive applications.
-      </li>
-    </ul>
-  </li>
-  <li>Applications
-    <ul>
-      <li>Education: Online courses, tutorials.</li>
-      <li>Entertainment: Movies, music, games.</li>
-      <li>Business: Presentations, marketing, advertisements.</li>
-      <li>Healthcare: Simulations, patient education.</li>
-      <li>Communication: Video conferencing, social media.</li>
-    </ul>
-  </li>
-</ol>
+
+## Advantages
+
+- Enhances learning and understanding.
+- Makes content engaging and attractive.
+- Enables simulation and visualization.
+- Supports interactive applications.
+
+## Applications
+
+- **Education** – Online courses, tutorials.
+- **Entertainment** – Movies, music, games.
+- **Business** – Presentations, marketing, advertisements.
+- **Healthcare** – Simulations, patient education.
+- **Communication** – Video conferencing, social media.
 
 ---
 
