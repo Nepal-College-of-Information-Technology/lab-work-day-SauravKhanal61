@@ -54,4 +54,4 @@ A specific region of interest was defined, cropped from the original image, and 
 ## Conclusion
 In this lab, the fundamentals of digital image processing were explored using Python and OpenCV. Basic operations such as loading images, converting color models, applying image transformations, and extracting regions of interest were successfully implemented. These techniques form a strong foundation for advanced image processing and computer vision applications.
 
----
+--- 
