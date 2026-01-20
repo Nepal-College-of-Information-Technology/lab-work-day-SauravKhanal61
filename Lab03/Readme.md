@@ -56,9 +56,8 @@ This numerical representation allows precise and consistent mapping between musi
 
 Although MIDI uses discrete note numbers, sound synthesis requires continuous frequencies. The frequency corresponding to a MIDI note number `n` is calculated using the following equation:
 
-\[
-f = 440 \times 2^{\frac{(n - 69)}{12}}
-\]
+f = 440 × 2^((n - 69) / 12)
+
 
 Here, 440 Hz represents the frequency of the reference note A4. This logarithmic relationship reflects the equal-tempered tuning system used in Western music, where each octave is divided into 12 equal semitones.
 
