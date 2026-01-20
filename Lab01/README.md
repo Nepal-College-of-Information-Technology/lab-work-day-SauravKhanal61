@@ -19,8 +19,8 @@
   * Collaboration – Many developers can work on the same project without messing up each other’s work.
   * Open-Source & Portfolio – You can contribute to public projects and also show your own work to others as a portfolio.
 
-<p>Some important GitHub terms include repository, commit, branch, merge, pull request, fork, clone, push, pull, and issues.
-These help you manage versions of your project, work with teammates, and handle project tasks easily.</p>
+Some important GitHub terms include repository, commit, branch, merge, pull request, fork, clone, push, pull, and issues.
+These help you manage versions of your project, work with teammates, and handle project tasks easily.
 
 ---
 
