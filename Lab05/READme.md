@@ -68,7 +68,20 @@ The classification result was displayed along with the detected face region.
 * Face region detected successfully  
 * Image preprocessed correctly  
 * Gender classified using the pre-trained CNN model  
-* Classification result displayed on the image  
+* Classification result displayed on the image
+    * Gender Detection
+     <img width="787" height="447" alt="image" src="https://github.com/user-attachments/assets/f3c09811-d3b5-45bb-b603-8ca971e7f1e0" />
+
+    * Age Detection
+      
+      <img width="785" height="440" alt="image" src="https://github.com/user-attachments/assets/b078c837-acc3-4c44-8bb5-37e7599ad0f8" />
+      
+    * Emotion Detection
+      
+      <img width="780" height="445" alt="image" src="https://github.com/user-attachments/assets/b35c7bff-326c-43cb-9f4a-ad682e72e368" />
+
+
+
 
 ---
 
