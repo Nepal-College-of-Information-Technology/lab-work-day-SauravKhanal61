@@ -45,8 +45,12 @@ A specific region of interest was defined, cropped from the original image, and 
 
 ## Output
 * Original image displayed successfully  
-* Grayscale and binary images obtained  
-* Image resized, rotated, and flipped correctly  
+* Grayscale and binary images obtained
+  <img width="260" height="325" alt="image" src="https://github.com/user-attachments/assets/0fe030eb-3d0c-4b5d-8a00-ab77bb4f1c75" />
+  <img width="255" height="317" alt="image" src="https://github.com/user-attachments/assets/230da9d7-174d-4421-a399-9dae1c90aca9" />
+
+* Image resized, rotated, and flipped correctly
+*  
 * Region of interest cropped from the image  
 
 ---
