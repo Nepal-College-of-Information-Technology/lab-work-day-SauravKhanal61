@@ -44,14 +44,23 @@ A specific region of interest was defined, cropped from the original image, and 
 ---
 
 ## Output
-* Original image displayed successfully  
+* Original image displayed successfully
+  <img width="379" height="465" alt="image" src="https://github.com/user-attachments/assets/f73d8349-2964-4ef9-8590-0f83755a89b0" />
+ 
 * Grayscale and binary images obtained
   <img width="260" height="325" alt="image" src="https://github.com/user-attachments/assets/0fe030eb-3d0c-4b5d-8a00-ab77bb4f1c75" />
   <img width="255" height="317" alt="image" src="https://github.com/user-attachments/assets/230da9d7-174d-4421-a399-9dae1c90aca9" />
 
 * Image resized, rotated, and flipped correctly
-*  
-* Region of interest cropped from the image  
+  <img width="627" height="492" alt="image" src="https://github.com/user-attachments/assets/c4ab77fe-a464-45e0-a876-9e4da9fa10ca" />
+  <img width="384" height="495" alt="image" src="https://github.com/user-attachments/assets/52a2ed41-7e06-4226-b02c-efb503c70a9d" />
+  <img width="375" height="504" alt="image" src="https://github.com/user-attachments/assets/cab8d95d-d7ce-496b-b79b-e33399be2a88" />
+
+
+
+* Region of interest cropped from the image
+  <img width="471" height="499" alt="image" src="https://github.com/user-attachments/assets/673ba671-f17e-40ab-b00f-322db16a875e" />
+
 
 ---
 
